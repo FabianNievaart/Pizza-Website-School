@@ -63,13 +63,13 @@ $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
 
 
     if ($_POST['woonplaats'] == 'Rotterdam') {
-        $ontvanger = "rotterdam@sopranos.nl";
+        $ontvanger = "rotterdam@sopranos.com";
 
     } elseif ($_POST['woonplaats'] == 'Amsterdam') {
-        $ontvanger = "amsterdam@sopranos.nl";
+        $ontvanger = "amsterdam@sopranos.com";
 
     } elseif ($_POST['woonplaats'] == 'Utrecht') {
-        $ontvanger = "utrecht@sopranos.nl";
+        $ontvanger = "utrecht@sopranos.com";
 
     }
 
